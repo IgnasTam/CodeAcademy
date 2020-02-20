@@ -1,0 +1,20 @@
+table tr#ROW1 {
+        background-color:darkred; color:white;
+}
+table tr#ROW2 {
+        background-color:lightgoldenrodyellow;border-bottom: 1px solid black;
+}
+table tr#ROW3 {
+        background-color:palegoldenrod; color:black;border-bottom: 1px solid black;
+}
+table tr#ROW4 {
+        background-color:lightgoldenrodyellow; color:black;border-bottom: 1px solid black;
+}
+table tr#ROW5 {
+        background-color:palegoldenrod; color:black;border-bottom: 1px solid black;
+}
+table {
+         border-collapse: collapse; border-right: 1px solid darkred;border-left: 1px solid darkred;
+}
+
+
