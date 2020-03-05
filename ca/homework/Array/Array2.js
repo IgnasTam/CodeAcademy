@@ -99,12 +99,11 @@ for (i=0;i<=arr7.length-1;i++){
 document.write(`${result}<hr>`);
 // Duotas masyvas su skaičiais. Skaičiai gali būti teigiami ir neigiami. Raskite teigiamų masyvo skaičių sumą.
 let arr8 = [7,-2,-6,3,-21,25,44,25,-15];
-document.write(`Masyvas: ${arr8.join()}<br>`);
 sum = 0;
 for (i = 0; i<=arr8.length-1; i++){
     if (arr8[i]>0){sum = sum + arr8[i]}
 }
-document.write(`Teigiamų skaičių suma: ${sum}<hr>`);
+document.write(`Suma: ${sum}<hr>`);
 // Duotas masyvas su elementais [1, 2, 3, 4, 5]. Parodykite visus šio masyvo elementus pasinaudoję ciklais for, while
 let arr9 = [1,2,3,4,5];
 document.write(`For : /`);
