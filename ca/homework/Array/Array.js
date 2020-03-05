@@ -58,7 +58,6 @@ document.write(`${_week.lt[1]}<br>${_week.en[3]}<hr>`);
 let _lang = 'en';
 day = 4;
 if((_lang == 'lt' || _lang == 'en') && (day>=1 && day<=7)){
-    if (day == 7);
     document.write(_week[_lang][day]);
 }
 
