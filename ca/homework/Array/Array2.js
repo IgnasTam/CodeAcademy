@@ -106,15 +106,15 @@ for (i = 0; i<=arr8.length-1; i++){
 document.write(`Suma: ${sum}<hr>`);
 // Duotas masyvas su elementais [1, 2, 3, 4, 5]. Parodykite visus šio masyvo elementus pasinaudoję ciklais for, while
 let arr9 = [1,2,3,4,5];
-document.write(`For : `);
+document.write(`For :`);
 for (i = 0; i<=arr9.length-1; i++){
-    document.write(` ${arr9[i]} /`);
+    document.write(` ${arr9[i]} `);
 }
 document.write(`<br>`);
 i = 0;
-document.write(`While : /`);
+document.write(`While : `);
 while (i<=arr9.length-1){
-    document.write(` ${arr9[i]} /`);
+    document.write(` ${arr9[i]} `);
     i++;
 }
 document.write(`<hr>`);
