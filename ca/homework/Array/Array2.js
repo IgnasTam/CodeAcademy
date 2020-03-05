@@ -83,9 +83,9 @@ let arr6 = {
     Paulius:300,
     Mindaugas:300
 };
-var n;
+var colour;
 for (n in arr6){
-    document.write(`${n} - ${arr6[n]} EUR <br>`);
+    document.write(`${colour} - ${arr6[colour]} EUR <br>`);
 }
 document.write(`<hr>`);
 // Duotas masyvas su elementais 2, 5, 9, 15, 0, 4.
