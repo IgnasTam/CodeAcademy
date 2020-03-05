@@ -71,9 +71,9 @@ let arr5 = {
     red: 'raudona',
     blue: 'mėlyna'
 };
-var n;
-for (n in arr5){
-    document.write(`${n} => [${arr5[n]}]<br>`);
+var colour;
+for (colour in arr5){
+    document.write(`${colour} => [${arr5[colour]}]<br>`);
 }
 document.write(`<hr>`);
 // Duotas objektas su raktais Mantas, Paulius, Mindaugas su reikšmėm 200, 300, 300.
