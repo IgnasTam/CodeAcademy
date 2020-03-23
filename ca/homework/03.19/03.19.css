@@ -1,0 +1,54 @@
+#main {
+    padding: 25px;
+    border: 1px solid;
+    width: 1450px;
+    height: 100px;
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 100px 50px;
+    border-color: transparent transparent #ff0000 transparent;
+    position: absolute;
+    left: 25px;
+}
+
+.circle {
+    background-color:#ff0000;
+    border:1px solid red;
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    position: absolute;
+
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    position: absolute;
+    left: 25px;
+}
+
+.trapezoid {
+    border-bottom: 70px solid #ff0000;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    position: absolute;
+}
+
+.parallelogram {
+    width: 100px;
+    height: 75px;
+    transform: skew(20deg);
+    background: #ff0000;
+    position: absolute;
+}
